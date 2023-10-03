@@ -1,0 +1,55 @@
+.margin-right{
+    margin-right: 115px;
+}
+.ad{
+width: 110%; height: 100%;
+
+}
+
+.Margin-left{
+    margin-left: 13px;
+}
+.Margin-bottom{
+    margin-bottom: 56px;
+}
+
+.centre-item1{
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 550px) {
+
+    .first{
+        width: 150%;
+        height: 10%;
+    }
+    .second{
+        width: 80%;
+    }
+
+    .margin-right{
+        margin-right: 0;
+    }
+
+    .ad{
+        width: 100%;
+    }
+    .Margin-left{
+        margin-left: 0px;
+    }
+    .Margin-bottom{
+        margin-bottom: 12px;
+    }
+
+    .h2-centre,.centre-item{
+        display: flex;
+        justify-content: center;
+    }
+    .padding-set{
+        padding: 0;
+    }
+    .centre-item1{
+        justify-content: center;
+    }
+    
+}
